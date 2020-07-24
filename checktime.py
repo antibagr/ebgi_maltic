@@ -16,8 +16,8 @@ arr = getdata( reloaddata() )
 
 start_time = datetime.now()
 
-#median.nlogn_median(arr)
+median.nlogn_median(arr)
 
-median.quickselect_median(arr)
+#median.quickselect_median(arr)
 
 print(datetime.now() - start_time)
